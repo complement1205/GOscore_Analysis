@@ -30,7 +30,9 @@ MIT License
 Loads a gene expression matrix from a CSV file. The matrix should contain gene symbols as the first column, and expression values across samples as other columns.
 
 **Expected format:**
+
 head(expr)
+
 Gene   W0   W2   W5   W8  W11 
 Gnai3 2168 2103 3671 2863 2229 
 Pbsn    1    8    2    0    0   
@@ -92,7 +94,9 @@ Defines the `run_GOscore_analysis()` function to evaluate the temporal dynamics 
   Identify  time-varying functional signatures in disease progression, treatment response, or developmental stages.
 
 **Expected Output format:**
+
 head(goscore_result)
+
 GO           W0_W2     W0_W5     W0_W8     W0_W11  
 GO:xxxx      0.023     0.005     0.031     0.0002
 GO:yyyy      0.4       0.03      NA        0.1
