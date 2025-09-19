@@ -40,6 +40,7 @@ Cdc45  213  448  432  337  250
 H19      0    1 1792 2377  330
 Scml2   16   16   33    2    7
 Apoh     4    2    7    8    6
+...
 ```
 
 
@@ -103,7 +104,7 @@ GO           W0_W2     W0_W5     W0_W8     W0_W11
 GO:xxxx      0.023     0.005     0.031     0.0002
 GO:yyyy      0.4       0.03      NA        0.1
 ...
-
+```
 
 ### Downstream analysis (optional)
 
