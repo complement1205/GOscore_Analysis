@@ -1,3 +1,13 @@
+##########################################################
+# GOscore Analysis
+# main.R
+# 
+# Entry point script to run the GOscore pipeline on example data.
+# Loads dependencies, sources analysis functions, and executes workflow.
+#
+# Author: Lu Chen
+
+##########################################################
 source("requirements.R")
 source("scripts/01_data_preparation.R")
 source("scripts/02_GO_enrichment.R")
